@@ -41,7 +41,13 @@ function githubButton(project) {
     return `<a class="btn btn-outline btn-sm" href="${project.github}" target="_blank" rel="noopener noreferrer">GitHub</a>`;
   }
 
-  return `<span class="btn btn-outline btn-sm btn-disabled" title="Source code is in a private repository">🔒 Private Repo</span>`;
+  return `
+    <span class="btn btn-outline btn-sm btn-disabled" title="Source code is in a private repository">
+      <svg class="social-icon" viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true">
+        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+      </svg>
+      Private Repo
+    </span>`;
 }
 
 function projectCard(project) {
