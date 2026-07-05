@@ -4,10 +4,19 @@
     "title": "Northwest Vita",
     "description": "A branded payment system for Northwest Petroleum, a leading oil and gas company in Nigeria. The system allows users to make payments for products and services, then earn loyalty points for every transaction.",
     "image": "assets/images/projects/northwest-vita.png",
-    "tags": ["C#/.NET", "Angular", "Tailwind", "HTML", "CSS", "Typescript", "API"],
+    "tags": [
+      "C#/.NET",
+      "Angular",
+      "Tailwind",
+      "HTML",
+      "CSS",
+      "Typescript",
+      "API"
+    ],
     "github": null,
     "preview": "https://ccportal.northwestpetroleum-ng.com"
   },
+
   {
     "id": 2,
     "title": "Tranzakt",
