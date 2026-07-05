@@ -228,9 +228,21 @@
 .skill-row .skill-label {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: var(--fs-sm);
   font-weight: 600;
   margin-bottom: var(--space-3xs);
+}
+
+.skill-name {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+}
+
+.skill-icon {
+  flex-shrink: 0;
+  color: var(--color-primary);
 }
 
 .skill-bar {
@@ -264,6 +276,11 @@
   border-radius: var(--radius-sm);
   font-weight: 600;
   font-size: var(--fs-sm);
+}
+
+.hobby-icon {
+  flex-shrink: 0;
+  color: var(--color-primary);
 }
 
 .media-block {
