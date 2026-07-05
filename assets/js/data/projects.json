@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "Northwest Vita",
+    "description": "A branded payment system for Northwest Petroleum, a leading oil and gas company in Nigeria. The system allows users to make payments for products and services, then earn loyalty points for every transaction.",
+    "image": "assets/images/projects/northwest-vita.png",
+    "tags": [
+      "C#/.NET",
+      "Angular",
+      "Tailwind",
+      "HTML",
+      "CSS",
+      "Typescript",
+      "API"
+    ],
+    "github": "#",
+    "preview": "https://ccportal.northwestpetroleum-ng.com"
+  },
+  {
+    "id": 2,
+    "title": "Tranzakt",
+    "description": "With Tranzakt your transactions are fast, secure and reliable. Build your dream while we keep your payments running as smooth as silk.",
+    "image": "assets/images/projects/tranzakt.png",
+    "tags": ["C#/.NET", "API"],
+    "github": "#",
+    "preview": "https://tranzakt.finance/"
+  },
+  {
+    "id": 3,
+    "title": "Whatsella",
+    "description": "Whatsella turns WhatsApp into your most powerful sales tool. List your business, automate customer conversations, and close deals, with AI working for you around the clock.",
+    "image": "assets/images/projects/whatsella.png",
+    "tags": ["C#/.NET", "API"],
+    "github": "#",
+    "preview": "https://whatsella.com/"
+  },
+  {
+    "id": 4,
+    "title": "Unn Student Portal",
+    "description": "The official portal for University of Nigeria, Nsukka.",
+    "image": "assets/images/projects/unnportal.png",
+    "tags": ["C#/.NET", "API"],
+    "github": "#",
+    "preview": "https://unnportal.unn.edu.ng/"
+  },
+
+  {
+    "id": 5,
+    "title": "FUTO Portal",
+    "description": "The official portal for Federal University of Technology, Owerri.",
+    "image": "assets/images/projects/futoportal.png",
+    "tags": ["C#/.NET", "API"],
+    "github": "#",
+    "preview": "https://portal.futo.edu.ng/"
+  },
+
+  {
+    "id": 6,
+    "title": "Renamarkets",
+    "description": "The Fastest Online Marketplace to Buy and Sell With Ease.",
+    "image": "assets/images/projects/renamarkets.png",
+    "tags": ["Angular", "HTML", "CSS", "Typescript", "Tailwind"],
+    "github": "#",
+    "preview": "https://portal.futo.edu.ng/"
+  },
+
+  {
+    "id": 7,
+    "title": "Unizik Hostel",
+    "description": "Unizik Hostel Management System.",
+    "image": "assets/images/projects/emadaunizikhostel.png",
+    "tags": ["C#/.NET", "API", "Blazor"],
+    "github": "#",
+    "preview": "https://www.elmadaunizikhostels.com/"
+  },
+  {
+    "id": 7,
+    "title": "SweeftaGo",
+    "description": "Your AI delivery right on Whatsapp",
+    "image": "assets/images/projects/sweeftago.png",
+    "tags": ["C#/.NET", "API"],
+    "github": "#",
+    "preview": "http://sweeftago.com/"
+  }
+]

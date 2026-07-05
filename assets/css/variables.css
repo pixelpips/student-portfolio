@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Design Tokens
+   Central source of truth for colour, type, spacing and motion.
+   Change a value here and it ripples through the whole site.
+   Palette: Navy (primary/ink) & Coral (secondary/accent)
+   ========================================================================== */
+
+:root {
+  /* --- Brand palette --- */
+  --navy: #0b2545;
+  --navy-dark: #071830;
+  --navy-tint: #eaeff5;
+  --coral: #ff6b6b;
+  --coral-dark: #e6534f;
+  --cream: #f9fbfd;
+
+  /* --- Semantic colour roles --- */
+  --color-primary: var(--navy);
+  --color-primary-dark: var(--navy-dark);
+  --color-accent: var(--coral);
+  --color-secondary: var(--coral);
+  --color-ink: var(--navy);
+
+  --color-bg: var(--cream);
+  --color-bg-alt: var(--navy-tint);
+  --color-bg-tint: var(--navy-tint);
+  --color-surface: #ffffff;
+
+  --color-text: #101c2c;
+  --color-text-muted: #5a6a80;
+  --color-text-on-dark: #eaeff5;
+  --color-border: rgba(11, 37, 69, 0.12);
+
+  --color-success: #22c55e;
+  --color-error: #e11d48;
+
+  /* --- Gradients --- */
+  --gradient-brand: linear-gradient(135deg, var(--navy), var(--coral));
+  --gradient-radial-glow: radial-gradient(circle at 30% 20%, var(--coral), var(--navy-tint) 45%, transparent 70%);
+
+  /* --- Typography --- */
+  --font-heading: 'Poppins', 'Segoe UI', sans-serif;
+  --font-body: 'Nunito Sans', 'Segoe UI', sans-serif;
+
+  --fs-xs: 0.8rem;
+  --fs-sm: 0.925rem;
+  --fs-base: 1rem;
+  --fs-md: 1.15rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2rem;
+  --fs-2xl: 2.75rem;
+  --fs-3xl: 3.5rem;
+
+  /* --- Spacing scale --- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+
+  /* --- Layout --- */
+  --container-width: 1180px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* --- Elevation --- */
+  --shadow-sm: 0 2px 8px rgba(11, 37, 69, 0.08);
+  --shadow-md: 0 8px 24px rgba(11, 37, 69, 0.18);
+  --shadow-lg: 0 20px 45px rgba(11, 37, 69, 0.2);
+  --shadow-glow: 0 0 0 4px rgba(255, 107, 107, 0.32);
+
+  /* --- Motion --- */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.18s var(--ease-standard);
+  --transition-base: 0.3s var(--ease-standard);
+  --transition-slow: 0.6s var(--ease-standard);
+
+  /* --- Layers --- */
+  --z-header: 100;
+  --z-overlay: 200;
+  --z-toast: 300;
+}
