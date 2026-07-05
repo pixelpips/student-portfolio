@@ -80,6 +80,20 @@
   color: var(--color-error);
 }
 
+.btn-disabled {
+  border-color: var(--color-border);
+  color: var(--color-text-muted);
+  background: var(--color-bg-alt);
+  cursor: not-allowed;
+}
+
+.btn-disabled:hover,
+.btn-disabled:focus-visible {
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  transform: none;
+}
+
 /* --- Cards --- */
 
 .card {

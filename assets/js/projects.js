@@ -36,6 +36,14 @@ function renderToolbar() {
   });
 }
 
+function githubButton(project) {
+  if (project.github) {
+    return `<a class="btn btn-outline btn-sm" href="${project.github}" target="_blank" rel="noopener noreferrer">GitHub</a>`;
+  }
+
+  return `<span class="btn btn-outline btn-sm btn-disabled" title="Source code is in a private repository">🔒 Private Repo</span>`;
+}
+
 function projectCard(project) {
   const tags = (project.tags ?? [])
     .map((tag) => `<span class="tag">${tag}</span>`)
@@ -52,7 +60,7 @@ function projectCard(project) {
         <div class="tag-list">${tags}</div>
         <div class="project-links">
           <a class="btn btn-primary btn-sm" href="${project.preview}" target="_blank" rel="noopener noreferrer">Live Preview</a>
-          <a class="btn btn-outline btn-sm" href="${project.github}" target="_blank" rel="noopener noreferrer">GitHub</a>
+          ${githubButton(project)}
         </div>
       </div>
     </article>
